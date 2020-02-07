@@ -10,6 +10,15 @@ body {
 	margin: 0 auto;
 }
 
+.navigation .container, .menu, .cards {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
 div, p, form, input, a, span, button {
 	box-sizing: border-box;
 }
@@ -20,7 +29,7 @@ ul, li {
 	margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h5, h6 {
 	padding: 0;
 	margin: 0;
 	font-weight: bold;
@@ -28,15 +37,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header .container {
-	display: flex;
-	justify-content: space-between;
 	align-items: center;
 }
 
 .navigation {
 	background: #455991;
 	color: #fff;
-	padding: 33px 0;
+	padding: 31px 0;
+	box-shadow: 2px 3px 9px rgba(88, 81, 88, 0.42);
+}
+
+.information {
+	padding: 70px 0 30px 0;
+
 }
 
 .logo {
@@ -47,28 +60,62 @@ h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 }
 
-.menu {
-	display: flex;
-}
-
-.menu li {
-	margin-right: 29px;
+.menu li:not(:last-child) {
+	margin-right: 26px;
 }
 
 .menu li a {
+	font-weight: bold;
 	font-size: 15px;
 	color: #fff;
+	text-decoration: none;
+	letter-spacing: 0.02em;
+	border-bottom: 2px solid #fff;
 }
 
-.tel {
+.phone {
 	font-size: 18px;
 	color: #fff;
 	text-decoration: none;
 }
 
+.main {
+}
 
+.main-text {
+	margin-top: 25px;
+	color: #969ba9;
+	margin-bottom: 40px;
+}
 
+.cards {
+	align-items: flex-start;
+	color: #272c2f;
+}
 
+.card {
+	width: 308px;
+	padding: 29px 25px 27px 25px;
+}
+
+.card-normal, .card-longer {
+	border: 1px solid #d6d6d6;
+}
+
+.card-shadow {
+	border-radius: 15px;
+	box-shadow: 0px 0px 24px 0px rgba(88, 81, 88, 0.42);
+}
+
+.more {
+	margin-top: 10px;
+	color: #22a2ec;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	letter-spacing: 0.05em;
+	display: inline-block;
+}
 
 
 
