@@ -53,6 +53,15 @@ h1, h2, h3, h5, h6 {
 	box-shadow: 2px 3px 9px rgba(88, 81, 88, 0.42);
 }
 
+h1 {
+	color: #272c2f;
+	font-size: 23px;
+	font-weight: bold;
+	line-height: 22px;
+	text-transform: uppercase;
+	letter-spacing: 0.46px;
+}
+
 .information {
 	padding: 70px 0 30px 0;
 
@@ -103,7 +112,11 @@ h1, h2, h3, h5, h6 {
 
 .card {
 	width: 308px;
-	padding: 29px 25px 27px 25px;
+	padding: 32px 25px 27px 33px;
+	color: #272c2f;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 0.3px;
 }
 
 .card-normal, .card-longer {
@@ -111,8 +124,9 @@ h1, h2, h3, h5, h6 {
 }
 
 .card-shadow {
+	box-shadow: 0 0 24px rgba(0, 0, 0, 0.33);
 	border-radius: 15px;
-	box-shadow: 0px 0px 24px 0px rgba(88, 81, 88, 0.42);
+	background-color: #ffffff;
 }
 
 .more {
@@ -140,6 +154,8 @@ h1, h2, h3, h5, h6 {
 	text-transform: uppercase;
 	letter-spacing: 0.02em;
 	margin-bottom: 40px;
+	line-height: 22px;
+	letter-spacing: 0.38px;
 }
 
 input {
