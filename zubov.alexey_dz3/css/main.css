@@ -83,12 +83,16 @@ h1, h2, h3, h5, h6 {
 }
 
 .main-text {
+	font-size: 14px;
 	margin-top: 25px;
-	color: #969ba9;
-	margin-bottom: 40px;
+	line-height: 1.4em;
+	width: 340px;
+	letter-spacing: 0.015em;
+	color: #828899;
 }
 
 .cards {
+	margin-top: 40px;
 	align-items: flex-start;
 	color: #272c2f;
 }
