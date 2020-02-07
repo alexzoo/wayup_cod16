@@ -31,6 +31,10 @@ ul, li {
 	margin: 0;
 }
 
+a {
+	text-decoration: none;
+}
+
 h1, h2, h3, h5, h6 {
 	padding: 0;
 	margin: 0;
@@ -57,7 +61,6 @@ h1, h2, h3, h5, h6 {
 .logo {
 	font-weight: bold;
 	font-size: 18px;
-	text-decoration: none;
 	text-transform: uppercase;
 	color: #fff;
 }
@@ -70,7 +73,6 @@ h1, h2, h3, h5, h6 {
 	font-weight: bold;
 	font-size: 15px;
 	color: #fff;
-	text-decoration: none;
 	letter-spacing: 0.02em;
 	border-bottom: 2px solid #fff;
 }
@@ -78,7 +80,6 @@ h1, h2, h3, h5, h6 {
 .phone {
 	font-size: 18px;
 	color: #fff;
-	text-decoration: none;
 }
 
 .main {
@@ -119,7 +120,6 @@ h1, h2, h3, h5, h6 {
 	color: #22a2ec;
 	font-size: 15px;
 	font-weight: bold;
-	text-decoration: none;
 	letter-spacing: 0.05em;
 	display: inline-block;
 }
@@ -244,7 +244,6 @@ button {
 	height: 37px;
 	color: #e0e3ed;
 	border: 1px solid #fff;
-	text-decoration: none;
 	text-align: center;
 	line-height: 37px;
 }
