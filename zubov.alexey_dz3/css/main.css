@@ -5,6 +5,8 @@ body {
 	font: normal 15px/1.5em  "Arial", sans-serif;
 	color: #272c2f;
 	line-height: 22px;
+	outline: none;
+	border: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -63,6 +65,13 @@ button {
 	cursor: pointer;
 	font-weight: bold;
 	font-family: "Arial", sans-serif;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
 }
 
 .container {
