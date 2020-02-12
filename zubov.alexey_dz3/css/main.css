@@ -235,10 +235,9 @@ select {
 }
 
 .button {
-	max-width: 165px;
+	width: 165px;
 	height: 40px;
 	background-color: #ebce0d;
-	padding: 17px 38px 17px 45px;
 }
 
 .protect {
