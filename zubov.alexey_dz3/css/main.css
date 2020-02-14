@@ -107,7 +107,6 @@ select {
 }
 
 .menu {
-	margin-top: 7px;
 	max-width: 380px;
 	width: 100%;
 }
@@ -253,7 +252,7 @@ select {
 
 .about_card {
 	background-color: #184c6b;
-	padding: 41px 50px 38px 43px;
+	padding: 55px 50px 38px 43px;
 	max-width: 547px;
 	width: 100%;
 	border-radius: 10px;
@@ -290,7 +289,7 @@ select {
 	margin-top: 15px;
 	font-size: 13px;
 	background-color: #455991;
-	padding: 19px 0;
+	padding: 19px 35px;
 	color: #fff;
 }
 
