@@ -1,0 +1,114 @@
+body {
+	font-family: Tahoma, sans-serif;
+	color: #000;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-bottom: 1.7em;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 2em;
+}
+
+h2 {
+	text-align: center;
+	color: #8707b3;
+}
+
+
+section {
+	padding-top: 100px;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+}
+
+a {
+	transition: all 0.5s ease;
+}
+
+.button {
+	display: block;
+	border: 1px solid #fff;
+	color: #fff;
+	font-weight: bold;
+	font-size: 13px;
+	text-transform: uppercase;
+	width: 217px;
+	padding: 18px 0;
+	border-radius: 100px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.d-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+}
+
+.justify-content-between {
+	justify-content: space-between;
+}
+
+/*Header*/
+
+.header {
+	background: rgba(74,125,252,1);
+	background: -moz-linear-gradient(-45deg, rgba(74,125,252,1) 0%, rgba(14,59,171,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(74,125,252,1)), color-stop(100%, rgba(14,59,171,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(74,125,252,1) 0%, rgba(14,59,171,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(74,125,252,1) 0%, rgba(14,59,171,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(74,125,252,1) 0%, rgba(14,59,171,1) 100%);
+	background: linear-gradient(135deg, rgba(74,125,252,1) 0%, rgba(14,59,171,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a7dfc', endColorstr='#0e3bab', GradientType=1 );
+	height: 668px;
+	padding: 68px 0 65px 0;
+}
+
+.header__offer h1 {
+	font-size: 27px;
+	color: #fff;
+	text-align: center;
+}
+
+.header_main {
+	height: 665px;
+	align-items: center;
+}
+
+.header__btn {
+	margin-top: 29px;
+}
+
+
+
