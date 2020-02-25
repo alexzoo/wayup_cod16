@@ -101,7 +101,7 @@ a {
 }
 
 .header_main {
-	height: 665px;
+	min-height: 665px;
 	align-items: center;
 }
 
