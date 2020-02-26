@@ -204,5 +204,46 @@ img {
 	background: #2d63eb url(../img/camera.png) no-repeat center center;
 }
 
+/*Section*/
 
+.reasons {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-top: 45px;
+}
 
+.reasons__item {
+	width: 225px;
+	align-items: center;
+	flex-direction: column;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.reasons__icon {
+	width: 75px;
+	height: 75px;
+	background: #fff;
+	border-radius: 50%;
+	border: #ffa200 solid 2px;
+	font-size: 30px;
+	text-align: center;
+	color: #ffa200;
+}
+
+.reasons__icon:hover {
+	background: #ffa200;
+	color: #fff;
+}
+
+.reasons__text {
+	font-size: 16px;
+	color: #000;
+	font-weight: bold;
+}
