@@ -99,7 +99,6 @@ img {
 	background: -ms-linear-gradient(-45deg, rgba(74,125,252,1) 0%, rgba(14,59,171,1) 100%);
 	background: linear-gradient(135deg, rgba(74,125,252,1) 0%, rgba(14,59,171,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a7dfc', endColorstr='#0e3bab', GradientType=1 );
-	padding: 68px 0 65px 0;
 }
 
 .header__offer h1 {
@@ -145,6 +144,11 @@ img {
 
 .mission__text {
 	color: #808490;
+}
+
+.mission__text a {
+	color: #606060;
+	text-decoration: underline;
 }
 
 .merits {
@@ -206,6 +210,10 @@ img {
 
 /*Section*/
 
+.advantages {
+	margin-bottom: 120px;
+}
+
 .reasons {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -248,3 +256,61 @@ img {
 	color: #000;
 	font-weight: bold;
 }
+
+/*Section*/
+
+.contacts {
+	background-color: #e6e9f1;
+	padding-bottom: 113px;
+}
+
+.contacts__content {
+	width: 410px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.contacts__text {
+	margin-top: 20px;
+	font-size: 14px;
+	color: #656a7d;
+}
+
+.contacts__btn {
+	margin-top: 28px;
+	background-color: #2d63eb;
+	color: #fff;
+}
+
+
+/*Footer*/
+
+.footer {
+	background-color: #06319e;
+	padding: 50px 0 50px 0;
+}
+
+.copyright {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.copyright__text {
+	color: #aeb6d7;
+	font-size: 13px;
+	margin-bottom: 0;
+
+}
+
+.copyright__text:hover {
+	border-bottom: #fff 2px dotted;
+	color: #fff;
+
+}
+
+
+
+
