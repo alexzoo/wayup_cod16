@@ -3,13 +3,24 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Myname</title>
+	<meta name="description" content="Занимаюсь версткой и делаю это профессионально">
+	<meta name="keywords" content="верстка">
+	<!-- Favicon -->
+	<link rel="icon" href="#" type="image/x-icon">
+ 	<link rel="shortcut icon" href="#" type="image/x-icon"> 
+	<!-- OG Tags -->
+	<meta property="og:title" content="«Профессиональная верстка">
+	<meta property="og:description" content="умный и разумный, красивый и приятный">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="#" >
+	<meta property="og:site_name" content="Myname">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<header id="header" class="header">
 		<div class="container">
-			<div class="header_main d-flex justify-content-between">
-				<a href="#" class="header_logo-link">
+			<div class="header__main d-flex justify-content-between">
+				<a href="#" class="header__logo-link">
 					<img src="img/logo.png" alt="Myname" class="header__logo">
 				</a>
 				<div class="header__offer">
@@ -20,7 +31,7 @@
 						Связаться со мной
 					</a>
 				</div>
-				<a href="#" class="header__arrow-link">
+				<a href="#about-me" class="header__arrow-link">
 					<img src="img/arrow.png" alt="Arrow" class="header__arrow">
 				</a>
 			</div>
@@ -28,10 +39,10 @@
 	</header>
 	<section id="about-me" class="about-me">
 		<div class="container">
-			<h2>
+			<h2 class="about-me__heading">
 				обо мне
 			</h2>
-			<div class="wrapper d-flex justify-content-between">
+			<div class="about-me__wrapper d-flex justify-content-between">
 				<div class="mission">
 					<h3 class="mission__title">
 						о миссии
@@ -99,7 +110,7 @@
 	</section>
 	<section id="advantages" class="advantages">
 		<div class="container">
-			<h2>
+			<h2 class="advantages__heading">
 				Почему ко мне обращаются
 			</h2>
 			<div class="reasons justify-content-between">
@@ -127,9 +138,9 @@
 	<section class="contacts">
 		<div class="container">
 			<div class="contacts__content">
-				<h2 class="contacts__heading">
+				<h3 class="contacts__heading">
 					Мне кажется,
-				</h2>
+				</h3>
 				<p class="contacts__text">
 					Вам просто необходимо связаться со мной, иначе вы рискуете упустить знакомство с лучшим человеком на земле
 				</p>
