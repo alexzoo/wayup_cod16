@@ -189,6 +189,7 @@ img {
 
 .merits__item {
 	display: flex;
+	align-items: center;
 	margin-bottom: 25px;
 } 
 
