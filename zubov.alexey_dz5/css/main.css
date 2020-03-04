@@ -47,7 +47,7 @@ h3 {
 }
 
 section {
-	padding-top: 100px;
+	padding-top: 95px;
 }
 
 a, a:hover, a:active {
@@ -109,11 +109,12 @@ img {
 }
 
 .header__arrow {
-	padding-bottom: 55px;
+	/*padding-bottom: 55px;*/
 }
 
 .header__main {
-	min-height: 590px;
+	padding: 60px 0 60px 0;
+	min-height: 655px;
 	align-items: center;
 }
 
@@ -223,7 +224,7 @@ img {
 /*Section*/
 
 .advantages {
-	margin-bottom: 120px;
+	padding-bottom: 120px;
 }
 
 .reasons {
@@ -232,7 +233,7 @@ img {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	margin-top: 75px;
+	margin-top: 65px;
 }
 
 .reasons__item {
@@ -251,7 +252,7 @@ img {
 	height: 75px;
 	background: #fff;
 	border-radius: 50%;
-	border: #ffa200 solid 2px;
+	border: #ffa200 solid 1px;
 	font-size: 30px;
 	text-align: center;
 	color: #ffa200;
@@ -264,6 +265,7 @@ img {
 }
 
 .reasons__text {
+	margin-top: 15px;
 	font-size: 16px;
 	color: #000;
 	font-weight: bold;
@@ -278,7 +280,7 @@ img {
 }
 
 .contacts__content {
-	width: 410px;
+	width: 420px;
 	text-align: center;
 	margin: 0 auto;
 }
@@ -295,7 +297,7 @@ img {
 }
 
 .contacts__btn {
-	margin-top: 10px;
+	margin-top: 25px;
 	background-color: #2d63eb;
 	color: #fff;
 }
