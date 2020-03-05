@@ -122,6 +122,11 @@ img {
 	margin-top: 29px;
 }
 
+.header__btn:hover {
+	background: #fff;
+	color: #255be2;
+}
+
 /*Section*/
 
 .about-me__heading {
@@ -257,7 +262,7 @@ img {
 	font-size: 30px;
 	text-align: center;
 	color: #ffa200;
-	padding: 18px;
+	padding: 24px;
 }
 
 .reasons__icon:hover {
@@ -303,6 +308,11 @@ img {
 	color: #fff;
 }
 
+.contacts__btn:hover {
+	background-color: #fff;
+	color: #2d63eb;
+}
+
 
 /*Footer*/
 
@@ -326,7 +336,7 @@ img {
 
 }
 
-.copyright__text:hover {
+.copyright__confidentional:hover {
 	border-bottom: #fff 2px dotted;
 	color: #fff;
 
