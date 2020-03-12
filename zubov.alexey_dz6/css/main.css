@@ -142,6 +142,13 @@ button, button:hover, button:focus, button:active
 	margin: 0 20px;
 }
 
+.nav__item:hover {
+	padding: 5px 20px;
+	border-radius: 5px;
+	background-color: #000;
+	color: #fff;
+}
+
 .phone {
 	font-size: 15px;
 	font-weight: 900;
@@ -155,13 +162,45 @@ button, button:hover, button:focus, button:active
 
 
 
+
+
 .offer {
 	background: url(../img/first_bg.jpg) no-repeat center top / cover;
 	/*margin-top: 87px;*/
 	/*margin-bottom: 130px;*/
-	min-height: 100px;
+	/*min-height: 100px;*/
+	padding: 85px 0 130px 0;
 }
 
+.offer__text {
+	width: 535px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.offer__text i {
+	font-size: 16px;
+}
+
+.offer__header {
+	margin-top: 25px;
+	color: #1b3bde;
+	font-size: 45px;
+	text-transform: none;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.offer__time {
+	font-size: 14px;
+	font-weight: 400;
+	background-color: #000;
+	color: #fff;
+	padding: 5px 20px;
+	width: 155px;
+}
 
 
 
