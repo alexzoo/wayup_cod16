@@ -160,16 +160,13 @@ button, button:hover, button:focus, button:active
 	margin-right: 5px;
 }
 
-
-
-
-
 .offer {
 	background: url(../img/first_bg.jpg) no-repeat center top / cover;
-	/*margin-top: 87px;*/
-	/*margin-bottom: 130px;*/
-	/*min-height: 100px;*/
 	padding: 85px 0 130px 0;
+}
+
+.offer__container {
+	justify-content: space-around;
 }
 
 .offer__text {
@@ -182,15 +179,17 @@ button, button:hover, button:focus, button:active
 
 .offer__text i {
 	font-size: 16px;
+	margin-top: 20px;
+
 }
 
 .offer__header {
-	margin-top: 25px;
+	margin-top: 30px;
 	color: #1b3bde;
 	font-size: 45px;
 	text-transform: none;
 	text-align: center;
-	margin-bottom: 25px;
+	margin-bottom: 35px;
 }
 
 .offer__time {
@@ -202,7 +201,71 @@ button, button:hover, button:focus, button:active
 	width: 155px;
 }
 
+.form {
+	width: 330px;
+	height: 415px;
+	padding: 40px 30px;
+	background-color: #fff;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 1px 54px rgba(0,0,0,0.2);
+}
 
+.form__header {
+	font-size: 17px;
+	font-weight: 900;
+	text-transform: none;
+	margin-bottom: 18px;
+}
+
+.form__text {
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 25px;
+	letter-spacing: 0.02em;
+
+}
+
+.form__main {
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.form__main input {
+	min-width: 270px;
+	margin-bottom: 10px;
+	padding: 12px 0;
+	border:none;
+    border-bottom: 1px solid #b8b8b8;
+}
+
+input::-webkit-input-placeholder {
+    color: #b8b8b8;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: #000;
+/*	border-bottom: 1px solid #000;
+	padding: 12px 0;*/
+}
+
+.form__button {
+	margin-top: 10px;
+	min-width: 270px;
+	padding: 20px 0;
+	background-color: #4acc4d;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 900;
+	color: #fff;
+	margin-bottom: 15px;
+}
+
+.form__sequrity {
+	color: #b8b8b8;
+	font-size: 12px;
+	font-weight: 400;
+}
 
 
 
