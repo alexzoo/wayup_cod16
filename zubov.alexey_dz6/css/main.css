@@ -161,7 +161,7 @@ button, button:hover, button:focus, button:active
 }
 
 .offer {
-	background: url(../img/first_bg.jpg) no-repeat center top / cover;
+	background: url('../img/first_bg.jpg') no-repeat center top / cover;
 	padding: 95px 0 130px 0;
 }
 
