@@ -162,7 +162,7 @@ button, button:hover, button:focus, button:active
 
 .offer {
 	background: url(../img/first_bg.jpg) no-repeat center top / cover;
-	padding: 85px 0 130px 0;
+	padding: 95px 0 130px 0;
 }
 
 .offer__container {
@@ -184,7 +184,7 @@ button, button:hover, button:focus, button:active
 }
 
 .offer__header {
-	margin-top: 30px;
+	/*margin-top: 30px;*/
 	color: #1b3bde;
 	font-size: 45px;
 	text-transform: none;
@@ -204,7 +204,7 @@ button, button:hover, button:focus, button:active
 .form {
 	width: 330px;
 	height: 415px;
-	padding: 40px 30px;
+	padding: 32px 30px;
 	background-color: #fff;
 	border-radius: 10px;
 	text-align: center;
