@@ -1,3 +1,45 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+
+
 /* ------ Specification ------ */
 
 body {
@@ -18,10 +60,10 @@ div, p, form, input, a, span, button {
 	box-sizing: border-box;
 }
 
+
 p {
 	margin: 0;
     font-size: 14px;
-    /*line-height: 1.1em;*/
 }
 
 ul, li {
@@ -38,8 +80,9 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1.15em;
 }
 
-section {
-	
+h2 {
+	font-size: 28px;
+	text-transform: none;
 }
 
 a, a:hover, a:active {
@@ -203,7 +246,7 @@ button, button:hover, button:focus, button:active
 .form {
 	width: 330px;
 	height: 415px;
-	padding: 32px 30px;
+	padding: 29px 30px;
 	background-color: #fff;
 	border-radius: 10px;
 	text-align: center;
@@ -268,6 +311,60 @@ input:focus::-webkit-input-placeholder {
 
 
 
+/*Section kbowlege*/
+
+
+.knowlege {
+	padding: 125px 0;
+}
+
+.author {
+	background: #9d6bdc;
+	color: #fff;
+	width: 470px;
+	height: 265px;
+	border-radius: 5px;
+	padding: 45px 0 48px 57px;
+}
+.author__name {
+	font-size: 18px;
+	font-weight: 900;
+	text-transform: none;
+	margin-bottom: 15px;
+}
+
+.author__text {
+	font-size: 15px;
+	font-weight: 400;
+	margin-bottom: 7px;
+}
+
+.stats {
+	width: 450px;
+	padding: 70px 0 80px;
+}
+
+.stats__text {
+	margin-top: 25px;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.author__digits {
+
+}
+
+.author__sites {
+
+}
+
+.author__icons {
+
+}
+
+.author__descr {
+	
+}
 
 
 
