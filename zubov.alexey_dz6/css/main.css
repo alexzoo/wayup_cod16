@@ -315,7 +315,7 @@ input:focus::-webkit-input-placeholder {
 
 
 .knowlege {
-	padding: 125px 0;
+	padding: 115px 0;
 }
 
 .author {
@@ -330,7 +330,7 @@ input:focus::-webkit-input-placeholder {
 	font-size: 18px;
 	font-weight: 900;
 	text-transform: none;
-	margin-bottom: 15px;
+	margin-bottom: 19px;
 }
 
 .author__text {
@@ -339,32 +339,51 @@ input:focus::-webkit-input-placeholder {
 	margin-bottom: 7px;
 }
 
-.stats {
-	width: 450px;
-	padding: 70px 0 80px;
-}
-
-.stats__text {
-	margin-top: 25px;
-	font-size: 15px;
-	font-weight: 400;
-}
-
 .author__digits {
-
+	margin: 22px 0;
 }
 
-.author__sites {
+.author__element {
 
 }
 
 .author__icons {
-
+	font-size: 39px;
+	font-weight: 700;
+	margin-right: 17px;
 }
 
 .author__descr {
-	
+	font-size: 13px;
+	font-weight: 400;
+	width: 73px;
+	margin-right: 40px;
 }
+
+.author__descr_short {
+	width: 40px;
+}
+
+.author__link {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.stats {
+	width: 450px;
+	padding: 70px 0 80px;
+	margin-left: 98px;
+}
+
+.stats__text {
+	margin-top: 20px;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 23.56px;
+	letter-spacing: 0.3px;
+}
+
+
 
 
 
