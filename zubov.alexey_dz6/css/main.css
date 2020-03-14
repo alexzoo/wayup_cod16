@@ -45,6 +45,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
+	font-weight: 400;
 	color: #000;
 	padding: 0;
 	margin: 0;
@@ -178,7 +179,6 @@ button, button:hover, button:focus, button:active
 .nav__list {
 	font-size: 13px;
 	color: #000;
-	font-weight: 400;
 }
 
 .nav__item {
@@ -236,7 +236,6 @@ button, button:hover, button:focus, button:active
 
 .offer__time {
 	font-size: 14px;
-	font-weight: 400;
 	background-color: #000;
 	color: #fff;
 	padding: 5px 20px;
@@ -262,7 +261,6 @@ button, button:hover, button:focus, button:active
 
 .form__text {
 	font-size: 14px;
-	font-weight: 400;
 	margin-bottom: 25px;
 	letter-spacing: 0.02em;
 
@@ -270,7 +268,6 @@ button, button:hover, button:focus, button:active
 
 .form__main {
 	font-size: 13px;
-	font-weight: 400;
 }
 
 .form__main input {
@@ -306,7 +303,6 @@ input:focus::-webkit-input-placeholder {
 .form__sequrity {
 	color: #b8b8b8;
 	font-size: 12px;
-	font-weight: 400;
 }
 
 
@@ -315,7 +311,7 @@ input:focus::-webkit-input-placeholder {
 
 
 .knowlege {
-	padding: 115px 0;
+	padding: 115px 0 65px 0;
 }
 
 .author {
@@ -325,6 +321,7 @@ input:focus::-webkit-input-placeholder {
 	height: 265px;
 	border-radius: 5px;
 	padding: 45px 0 48px 57px;
+	box-shadow: 0 13px 98px rgba(0, 0, 0, 0.24);
 }
 .author__name {
 	font-size: 18px;
@@ -355,7 +352,6 @@ input:focus::-webkit-input-placeholder {
 
 .author__descr {
 	font-size: 13px;
-	font-weight: 400;
 	width: 73px;
 	margin-right: 40px;
 }
@@ -366,24 +362,49 @@ input:focus::-webkit-input-placeholder {
 
 .author__link {
 	font-size: 14px;
-	font-weight: 400;
 }
 
-.stats {
-	width: 450px;
+.question {
+	width: 437px;
 	padding: 70px 0 80px;
+	margin-left: 135px;
+}
+
+.question_1 {
 	margin-left: 98px;
 }
 
-.stats__text {
+.question__text {
 	margin-top: 20px;
 	font-size: 15px;
-	font-weight: 400;
 	line-height: 23.56px;
 	letter-spacing: 0.3px;
 }
 
+.amount {
+	width: 469px;
+	height: 265px;
+	box-shadow: 0 13px 98px rgba(0, 0, 0, 0.24);
+	border-radius: 5px;
+	background-color: #f6e23a;
+	margin-left: 103px;
+	font-weight: 900;
+	text-align: center;
+	justify-content: center;
+}
 
+.amount__money {
+	font-size: 43px;
+	width: 130px;
+}
+
+.amount__money span {
+	font-size: 21px;
+	display: block;
+	margin-top: 3px;
+	font-weight: 400;
+
+}
 
 
 
