@@ -427,8 +427,15 @@ input:focus::-webkit-input-placeholder {
 }
 
 .works__wrapper {
-	justify-content: space-around;
+	/*justify-content: space-around;*/
+}
 
+.works__item {
+	margin-right: 80px;
+}
+
+.works__item_third {
+	margin-left: -25px;
 }
 
 .works__title {
@@ -462,6 +469,57 @@ input:focus::-webkit-input-placeholder {
 
 }
 
+
+/*Section Freelance*/
+
+.freelance__wrapper {
+	padding: 90px 0 100px 0;
+}
+
+.freelance__title {
+	margin-bottom: 68px;
+}
+
+.freelance__item {
+	width: 348px;
+	height: 236px;
+	box-shadow: 0 13px 98px rgba(0, 0, 0, 0.24);
+	border-radius: 5px;
+	color: #fff;
+	font-size: 19px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 64px;
+}
+
+.freelance__item_first {
+	background-color: #4acc4d;
+}
+
+.freelance__item_second {
+	background-color: #4ac7cc;
+}
+
+.freelance__item_third {
+	background-color: #dc6b83;
+}
+
+
+.fa {
+	font-size: 42px;
+	margin-bottom: 20px;
+}
+
+.freelance__text {
+	font-size: 19px;
+	font-weight: 600;
+	text-align: center;
+}
 
 
 
