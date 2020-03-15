@@ -86,6 +86,11 @@ h2 {
 	text-transform: none;
 }
 
+h3 {
+	font-size: 19px;
+	text-transform: none;
+}
+
 a, a:hover, a:active {
 	text-decoration: none;
 }
@@ -309,7 +314,6 @@ input:focus::-webkit-input-placeholder {
 
 /*Section kbowlege*/
 
-
 .knowlege {
 	padding: 115px 0 65px 0;
 }
@@ -364,6 +368,13 @@ input:focus::-webkit-input-placeholder {
 	font-size: 14px;
 }
 
+
+/*section Money*/
+
+.money {
+	padding-bottom: 122px;
+}
+
 .question {
 	width: 437px;
 	padding: 70px 0 80px;
@@ -407,12 +418,49 @@ input:focus::-webkit-input-placeholder {
 }
 
 
+/* Section Works*/
 
+.works {
+	height: 490px;
+	background: url("../img/first_bg.jpg") no-repeat center top / cover;
+	padding: 104px 0;
+}
 
+.works__wrapper {
+	justify-content: space-around;
 
+}
 
+.works__title {
+	margin-bottom: 74px;
+}
 
+.works__icon {
+	width: 82px;
+	height: 82px;
+	background-color: #1b3bde;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 26px;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 25px;
+}
 
+.works__heading {
+	width: 215px;
+	color: #1b3bde;
+	margin-left: 34px;
+}
+
+.works__text {
+	width: 205px;
+	font-size: 15px;
+	color: #000;
+	margin-left: 117px;
+	line-height: 1.3em;
+
+}
 
 
 
