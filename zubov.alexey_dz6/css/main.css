@@ -208,7 +208,7 @@ button, button:hover, button:focus, button:active
 	margin-right: 5px;
 }
 
-.offer {
+.offer_bg {
 	background: url('../img/first_bg.jpg') no-repeat center top / cover;
 	padding: 95px 0 130px 0;
 }
@@ -522,7 +522,48 @@ input:focus::-webkit-input-placeholder {
 }
 
 
+/*Section Book*/
 
+.book {
+	padding-bottom: 50px;
+}
+
+.offer__text_book {
+	color: #fff;
+}
+
+.container_book {
+	background: url("../img/second_bg.jpg") no-repeat center top / cover;
+	padding: 95px 0 115px 0;
+}
+
+.offer__header_book {
+	text-transform: none;
+	text-align: center;
+	font-size: 28px;
+	width: 564px;
+}
+
+.offer__time_book {
+	margin-top: 33px;
+	width: 300px;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.offer__time_book .fa {
+	margin-right: 10px;
+}
+
+.fa-users {
+	margin-left: 5px;
+}
+
+.form_book {
+	padding-top: 40px;
+}
+
+/*Footer*/
 
 
 
