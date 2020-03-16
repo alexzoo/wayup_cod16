@@ -510,7 +510,7 @@ input:focus::-webkit-input-placeholder {
 }
 
 
-.fa {
+.font_aw {
 	font-size: 42px;
 	margin-bottom: 20px;
 }
@@ -565,7 +565,30 @@ input:focus::-webkit-input-placeholder {
 
 /*Footer*/
 
+.footer {
+	height: 90px;
+}
 
+.footer__logo {
+	margin-right: 150px;
+}
+
+.footer__fa {
+	padding-top: 5px;
+}
+
+.footer__text {
+	width: 129px;
+	color: #000000;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 29px;
+	letter-spacing: 0.24px;	
+}
+
+.footer__phone {
+	margin-left: 195px;
+}
 
 
 
