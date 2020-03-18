@@ -15,7 +15,7 @@
 	<meta property="og:image" content="#" >
 	<meta property="og:site_name" content="Моя школа верстки">
 	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,700,900&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400, 700,900&display=swap&subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous">
 	<!-- Css -->
 	<link rel="stylesheet" href="css/main.css">
@@ -42,7 +42,7 @@
 				<div class="d-flex">
 					<ul class="nav__list d-flex">
 						<li class="nav__item">
-							<a href="#" class="nav__link">
+							<a href="#knowlege" class="nav__link">
 								Знаете ли вы
 							</a>
 						</li>
@@ -57,16 +57,14 @@
 							</a>
 						</li>
 						<li class="nav__item">
-							<a href="#" class="nav__link">
+							<a href="#form" class="nav__link">
 								Регистрация
 							</a>
 						</li>
 					</ul>
-					<a href="tel:+74959825364" class="nav__phone phone d-flex">
+					<a href="tel:+74959825364" class="nav__phone phone">
 					<i class="fa fa-phone"></i>
-					<p>
 						+7 (495) 567-564-12
-					</p>
 					</a>
 				</div>
 			</div>
@@ -76,20 +74,16 @@
 				<div class="offer__text">
 					<div class="d-flex">
 						<i class="fa fa-graduation-cap font_aw"></i>
-						<p>
-							Онлайн-мастер-класс
-						</p>
+							&nbsp;Онлайн-мастер-класс
 					</div>
-					<div class="offer__wrapper">
-						<h1 class="offer__header">
-						Я — профессиональный веб-верстальщик
-						</h1>
-					</div>
+					<h1 class="offer__header">
+					Я — профессиональный веб-верстальщик
+					</h1>
 					<div class="offer__time">
 							9 апреля в 18:00
 					</div>
 				</div>
-				<div class="form">
+				<div class="form" id="form">
 					<h4 class="form__header">
 						Забронировать участие
 					</h4>
@@ -97,9 +91,9 @@
 						Чтобы стать профессионалом в  HTML и CSS, а также делать WOW
 					</p>
 					<form action="#" class="form__main">
-						<input type="text" placeholder="Введите имя">
-						<input type="email" placeholder="Введите E-mail">
-						<input type="tel" placeholder="Введите телефон">
+						<input type="text" name="name" required placeholder="Введите имя">
+						<input type="email" name="email" required placeholder="Введите E-mail">
+						<input type="tel" name="phone" required placeholder="Введите телефон">
 						<button class="form__button" type="submit">
 							Оставить заявку
 						</button>
@@ -266,11 +260,9 @@
 			<div class="offer">
 				<div class="offer__container container d-flex align-items-center">
 					<div class="offer__text offer__text_book">
-						<div class="d-flex">
+						<div class="d-flex align">
 							<i class="fa fa-graduation-cap font_aw"></i>
-							<p>
-								Онлайн-мастер-класс
-							</p>
+								&nbsp;Онлайн-мастер-класс
 						</div>
 						<div class="offer__wrapper">
 							<h1 class="offer__header_book">

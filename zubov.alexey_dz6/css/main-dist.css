@@ -6,8 +6,6 @@
 	border: 0;
 }
 *,*:before,*:after{
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 :focus,:active{outline: none;}
@@ -102,7 +100,6 @@ a, button, input {
 }
 
 .d-flex {
-	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
@@ -495,7 +492,6 @@ input:focus::-webkit-input-placeholder {
 	border-radius: 5px;
 	color: #fff;
 	font-size: 19px;
-	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
