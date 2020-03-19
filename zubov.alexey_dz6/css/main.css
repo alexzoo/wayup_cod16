@@ -117,6 +117,10 @@ a, button, input {
 	align-items: center;
 }
 
+.align-items-base {
+	align-items: baseline;
+}
+
 .btn {
 	font-weight: 900;
 	color: #fff;
@@ -191,12 +195,12 @@ button, button:hover, button:focus, button:active
 }
 
 .nav__item {
-	padding: 5px 5px;
+	padding: 10px 10px;
 	margin: 0 15px;
 }
 
 .nav__item:hover {
-	padding: 5px 5px;
+	padding: 10px 10px;
 	border-radius: 5px;
 	background-color: #000;
 	color: #fff;
@@ -225,10 +229,15 @@ button, button:hover, button:focus, button:active
 .offer__text {
 	width: 535px;
 	display: flex;
-    flex-direction: column;
-    align-items: center;
+   flex-direction: column;
+   align-items: center;
     /*margin-top: 20px;*/
+}
 
+.offer__subtext {
+	font-size: 16px;
+	line-height: 53px;
+	margin-left: 5px;
 }
 
 .offer__text i {
@@ -251,6 +260,9 @@ button, button:hover, button:focus, button:active
 	color: #fff;
 	padding: 7px 10px;
 	width: 155px;
+	text-align: center;
+	border-radius: 3px;
+
 }
 
 .form {
@@ -448,6 +460,7 @@ input:focus::-webkit-input-placeholder {
 
 .works__title {
 	margin-bottom: 74px;
+	line-height: 37px;
 }
 
 .works__icon {
@@ -469,7 +482,8 @@ input:focus::-webkit-input-placeholder {
 }
 
 .works__text {
-	width: 205px;
+	/*width: 205px;*/
+	margin-top: -4px;
 	font-size: 15px;
 	color: #000;
 	margin-left: 117px;
@@ -527,6 +541,7 @@ input:focus::-webkit-input-placeholder {
 	font-size: 19px;
 	font-weight: 600;
 	text-align: center;
+	line-height: 22px;
 }
 
 
