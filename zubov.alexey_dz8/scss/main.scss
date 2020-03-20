@@ -10,7 +10,7 @@
 	// font-size: 0;
 }
 
-.flexbox {
+%flexbox {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -78,6 +78,10 @@ body {
 	color: #22241b;
 }
 
+a {
+	color: #fff;
+}
+
 // Header
 
 .container {
@@ -93,13 +97,13 @@ body {
 	text-transform: uppercase;
 	&__row {
 		// @include flexbox;
-		@extend .flexbox;
+		@extend %flexbox;
 		@include align-items-center;
 		@include justify-content(space-between);
 	}
 	&__logo {
 		// @include flexbox;
-		@extend .flexbox;
+		@extend %flexbox;
 		@include align-items-center;
 		letter-spacing: 2.04px;
 		line-height: 48px;
@@ -131,7 +135,7 @@ body {
 	&__list {
 		// @include flexbox;
 		width: 325px;
-		@extend .flexbox;
+		@extend %flexbox;
 		@include justify-content(space-between);
 		letter-spacing: 1.8px;
 	}

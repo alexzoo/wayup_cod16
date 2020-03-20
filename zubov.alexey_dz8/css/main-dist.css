@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 }
 
-.flexbox, .nav__list, .header__logo, .header__row {
+.nav__list, .header__logo, .header__row {
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
@@ -110,6 +110,10 @@ body {
 	font-family: "Natasha", sans-serif;
 	font-size: 15px;
 	color: #22241b;
+}
+
+a {
+	color: #fff;
 }
 
 .container {
