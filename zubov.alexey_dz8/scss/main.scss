@@ -7,16 +7,27 @@
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	font-size: 0;
+	// font-size: 0;
 }
 
-@mixin justify-content-center {
-	justify-content: center;
+.flexbox {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+
+@mixin justify-content($space) {
+	justify-content: $space;
 }
 
 @mixin align-items-center {
 	align-items: center;
 }
+
+$container-width: 955px;
 
 // FONTS
 @font-face {
@@ -69,11 +80,64 @@ body {
 
 // Header
 
+.container {
+	width: $container-width;
+	margin: 0 auto;
+}
+
 .header {
 	height: 1300px;
 	background: #ccc url('../img/background.jpg') no-repeat center top / cover;
+	padding: 40px 0 82px 0;
+	color: #fff;
+	text-transform: uppercase;
+	&__row {
+		// @include flexbox;
+		@extend .flexbox;
+		@include align-items-center;
+		@include justify-content(space-between);
+	}
+	&__logo {
+		// @include flexbox;
+		@extend .flexbox;
+		@include align-items-center;
+		letter-spacing: 2.04px;
+		line-height: 48px;
+		font-size: 17px;
+
+	}
+	&__logo_small {
+		font-family: 'MuseoSans 100';
+		font-weight: 400;
+	}
+	&__logo_big {
+		font-family: 'MuseoSans 900';
+		
+		
+	}
+	&__email {
+		font-family: 'MuseoSans 300';
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 48px;
+		letter-spacing: 1.56px;
+		text-transform: none;
+	}
 }
 
+.nav {
+	font-family: 'MuseoSans 900';
+	color: #fff;
+	&__list {
+		// @include flexbox;
+		width: 325px;
+		@extend .flexbox;
+		@include justify-content(space-between);
+		letter-spacing: 1.8px;
+	}
+	&__item {
+	}
+}
 
 
 
