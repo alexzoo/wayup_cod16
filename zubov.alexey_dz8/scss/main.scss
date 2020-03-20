@@ -1,14 +1,11 @@
 @import "reset";
 
 // MIXINS
-@mixin flexbox {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	// font-size: 0;
+@mixin justify-content($space) {
+	justify-content: $space;
 }
+
+// PLACEHOLDERS
 
 %flexbox {
 	display: -webkit-flex;
@@ -18,16 +15,18 @@
 	display: flex;
 }
 
-
-@mixin justify-content($space) {
-	justify-content: $space;
-}
-
-@mixin align-items-center {
+%align-items-center {
 	align-items: center;
 }
 
+// VARIABLES
 $container-width: 955px;
+
+// SPECIFICATION
+
+a {
+	color: #fff;
+}
 
 // FONTS
 @font-face {
@@ -78,9 +77,7 @@ body {
 	color: #22241b;
 }
 
-a {
-	color: #fff;
-}
+
 
 // Header
 
@@ -96,15 +93,13 @@ a {
 	color: #fff;
 	text-transform: uppercase;
 	&__row {
-		// @include flexbox;
 		@extend %flexbox;
-		@include align-items-center;
+		@extend %align-items-center;
 		@include justify-content(space-between);
 	}
 	&__logo {
-		// @include flexbox;
 		@extend %flexbox;
-		@include align-items-center;
+		@extend %align-items-center;
 		letter-spacing: 2.04px;
 		line-height: 48px;
 		font-size: 17px;
@@ -126,6 +121,15 @@ a {
 		line-height: 48px;
 		letter-spacing: 1.56px;
 		text-transform: none;
+		&:after {
+			content: "";
+			display: block;
+			position: absolute;
+			width: 135px;
+			height: 1px;
+			background-color: #fff;
+			margin-top: -13px;
+		}
 	}
 }
 
@@ -133,7 +137,6 @@ a {
 	font-family: 'MuseoSans 900';
 	color: #fff;
 	&__list {
-		// @include flexbox;
 		width: 325px;
 		@extend %flexbox;
 		@include justify-content(space-between);
