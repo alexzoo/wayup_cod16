@@ -163,6 +163,7 @@ body {
 	color: #fff;
 
 	&__list {
+		margin-left: 15px;
 		width: 325px;
 		@extend %flexbox;
 		@include justify-content(space-between);
@@ -202,4 +203,147 @@ body {
 		text-align: center;
 		padding-top: 14px;
 	}
+}
+
+// Section About
+
+.about {
+	padding-top: 80px;
+	padding-left: 10px;
+	font-family: 'MuseoSans 300';
+
+	&__row {
+		@extend %flexbox;
+	}
+
+	&_title {
+		margin-bottom: 44px;
+	}
+
+	&__background {
+		max-width: 432px;
+	}
+
+	&__subtitle {
+		margin-bottom: 19px;
+	}
+
+	&__text {
+		color: #000;
+		font-family: 'MuseoSans 300';
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 27px;
+		letter-spacing: 0.3px;
+		margin-bottom: 25px;
+	}
+
+	&__text:nth-child(2) {
+		margin-bottom: 26px;
+	}
+
+	&_text:last-child {
+		margin-bottom: 0;
+	}
+
+	&__merit-contact {
+		margin-left: 40px;
+	}
+
+	&__merit {}
+
+	&__contact {}
+}
+
+.title {
+	color: #000;
+	font-family: Natasha;
+	font-size: 37px;
+	font-weight: 400;
+	line-height: 55px;
+	text-transform: uppercase;
+	letter-spacing: 4.44px;
+}
+
+.subtitle {
+	color: #949591;
+	font-family: Natasha;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 55px;
+	text-transform: uppercase;
+	letter-spacing: 2.64px;
+}
+
+.merit {
+	&__row {
+		@extend %flexbox;
+		margin-left: 40px;
+	}
+
+	&__subtitle {
+		margin-bottom: 40px;
+	}
+
+	&__item {}
+
+	&__cubic {
+		width: 73px;
+		height: 73px;
+		border: 1px solid #000;
+		transform: rotate(45deg);
+	}
+
+	&__cubic_small {
+		margin: 8px auto;
+		width: 57px;
+		height: 57px;
+		border: 1px solid #c6d6bb;
+	}
+
+	&__num {
+		text-align: center;
+		color: #204d15;
+		font-family: 'MuseoSans 100';
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 55px;
+		text-transform: uppercase;
+		letter-spacing: 2.4px;
+		transform: rotate(-45deg);
+	}
+
+	&__text {
+		width: 105px;
+		margin-top: 36px;
+		margin-left: -45px;
+		color: #22241b;
+		font-family: 'MuseoSans 100';
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 18px;
+		text-transform: uppercase;
+		letter-spacing: 0.24px;
+		text-align: center;
+		margin-bottom: 50px;
+
+	}
+}
+
+.contact {
+	&__subtitle {}
+
+	&__row {}
+
+	&__list {}
+
+	&__link {}
+
+	&__write {}
+
+	&__circle {}
+
+	&__icon {}
+
+	&__text {}
 }
