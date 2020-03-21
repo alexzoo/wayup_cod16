@@ -6,7 +6,6 @@
 }
 
 // PLACEHOLDERS
-
 %flexbox {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -23,64 +22,83 @@
 $container-width: 955px;
 
 // SPECIFICATION
-
 a {
 	color: #fff;
 }
 
 // FONTS
 @font-face {
-  font-family: 'MuseoSans 100';
-  src: url('../fonts/MuseoSansCyrl-100.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/MuseoSansCyrl-100.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/MuseoSansCyrl-100.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/MuseoSansCyrl-100.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-family: 'MuseoSans 100';
+	src: url('../fonts/MuseoSansCyrl-100.eot');
+	/* IE9 Compat Modes */
+	src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/MuseoSansCyrl-100.woff') format('woff'),
+		/* Pretty Modern Browsers */
+		url('../fonts/MuseoSansCyrl-100.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/MuseoSansCyrl-100.svg#svgFontName') format('svg');
+	/* Legacy iOS */
 }
 
 @font-face {
-  font-family: 'MuseoSans 300';
-  src: url('../fonts/MuseoSansCyrl-300.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/MuseoSansCyrl-300.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/MuseoSansCyrl-300.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/MuseoSansCyrl-300.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-family: 'MuseoSans 300';
+	src: url('../fonts/MuseoSansCyrl-300.eot');
+	/* IE9 Compat Modes */
+	src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/MuseoSansCyrl-300.woff') format('woff'),
+		/* Pretty Modern Browsers */
+		url('../fonts/MuseoSansCyrl-300.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/MuseoSansCyrl-300.svg#svgFontName') format('svg');
+	/* Legacy iOS */
 }
 
 @font-face {
-  font-family: 'MuseoSans 900';
-  src: url('../fonts/MuseoSansCyrl-900.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/MuseoSansCyrl-900.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/MuseoSansCyrl-900.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/MuseoSansCyrl-900.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-family: 'MuseoSans 900';
+	src: url('../fonts/MuseoSansCyrl-900.eot');
+	/* IE9 Compat Modes */
+	src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/MuseoSansCyrl-900.woff') format('woff'),
+		/* Pretty Modern Browsers */
+		url('../fonts/MuseoSansCyrl-900.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/MuseoSansCyrl-900.svg#svgFontName') format('svg');
+	/* Legacy iOS */
 }
 
 @font-face {
-  font-family: 'Natasha';
-  src: url('../fonts/Natasha.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/Natasha.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/Natasha.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/Natasha.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/Natasha.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/Natasha.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-family: 'Natasha';
+	src: url('../fonts/Natasha.eot');
+	/* IE9 Compat Modes */
+	src: url('../fonts/Natasha.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/Natasha.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/Natasha.woff') format('woff'),
+		/* Pretty Modern Browsers */
+		url('../fonts/Natasha.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/Natasha.svg#svgFontName') format('svg');
+	/* Legacy iOS */
 }
 
 // body
-
 body {
 	font-family: 'Natasha', sans-serif;
 	font-size: 15px;
 	color: #22241b;
 }
 
-
-
 // Header
-
 .container {
 	width: $container-width;
 	margin: 0 auto;
@@ -96,28 +114,30 @@ body {
 	padding: 40px 0 82px 0;
 	color: #fff;
 	text-transform: uppercase;
+
 	&__row {
 		@extend %flexbox;
 		@extend %align-items-center;
 		@include justify-content(space-between);
 	}
+
 	&__logo {
 		@extend %flexbox;
 		@extend %align-items-center;
 		letter-spacing: 2.04px;
 		line-height: 48px;
 		font-size: 17px;
-
 	}
+
 	&__logo_small {
 		font-family: 'MuseoSans 100';
 		font-weight: 400;
 	}
+
 	&__logo_big {
 		font-family: 'MuseoSans 900';
-		
-		
 	}
+
 	&__email {
 		font-family: 'MuseoSans 300';
 		font-size: 13px;
@@ -125,6 +145,7 @@ body {
 		line-height: 48px;
 		letter-spacing: 1.56px;
 		text-transform: none;
+
 		&:after {
 			content: "";
 			display: block;
@@ -140,6 +161,7 @@ body {
 .nav {
 	font-family: 'MuseoSans 900';
 	color: #fff;
+
 	&__list {
 		width: 325px;
 		@extend %flexbox;
@@ -159,6 +181,7 @@ body {
 		letter-spacing: 5.9px;
 		text-align: center;
 	}
+
 	&__subtitle {
 		margin-top: 15px;
 		color: #ffffff;
@@ -169,6 +192,7 @@ body {
 		text-align: center;
 		margin-bottom: 260px;
 	}
+
 	&__circle {
 		margin: 0 auto;
 		width: 40px;
@@ -179,23 +203,3 @@ body {
 		padding-top: 14px;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
