@@ -262,10 +262,17 @@ body {
 }
 
 .merit__row {
-	margin-left: 40px;
+	justify-content: space-between;
+	width: 425px;
+	margin-left: 23px;
 }
 .merit__subtitle {
 	margin-bottom: 40px;
+}
+.merit__item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .merit__cubic {
 	width: 73px;
@@ -293,7 +300,6 @@ body {
 .merit__text {
 	width: 105px;
 	margin-top: 36px;
-	margin-left: -45px;
 	color: #22241b;
 	font-family: "MuseoSans 100";
 	font-size: 12px;
