@@ -214,6 +214,7 @@ body {
 	padding-top: 80px;
 	padding-left: 10px;
 	font-family: 'MuseoSans 300';
+	margin-bottom: 61px;
 
 	&__row {
 		@extend %flexbox;
@@ -427,3 +428,56 @@ body {
 		letter-spacing: 0.28px;
 	}
 }
+
+// Section SKILLS
+
+.skills {
+	padding-left: 5px;
+	margin-bottom: 70px;
+}
+
+.container {}
+
+.skills {
+	&__title {}
+
+	&__item-row {
+		@extend %flexbox;
+		// @extend %justify-content-space-between;
+		align-items: center;
+	}
+
+	&__item {
+		width: 204px;
+		@extend %flexbox;
+		// @extend %justify-content-space-between;
+		align-items: center;
+	}
+
+	&__circle {
+		&_big {
+			width: 61px;
+			height: 61px;
+			border-radius: 50%;
+			border: #000 solid 1px;
+			text-align: center;
+			display: block;
+
+		}
+
+		&_small {
+			margin: 5px auto;
+			width: 51px;
+			height: 51px;
+			border-radius: 50%;
+			border: #000 solid 1px;
+			text-align: center;
+			padding-top: 17px;
+			display: block;
+		}
+	}
+
+	&__text {}
+}
+
+.title {}
