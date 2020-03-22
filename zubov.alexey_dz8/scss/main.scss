@@ -439,9 +439,12 @@ body {
 .container {}
 
 .skills {
-	&__title {}
+	&__title {
+		margin-bottom: 45px;
+	}
 
 	&__item-row {
+		margin-left: 5px;
 		@extend %flexbox;
 		// @extend %justify-content-space-between;
 		align-items: center;
@@ -452,6 +455,11 @@ body {
 		@extend %flexbox;
 		// @extend %justify-content-space-between;
 		align-items: center;
+		margin-left: 30px;
+
+		&:nth-child(1) {
+			margin-left: 0;
+		}
 	}
 
 	&__circle {
@@ -466,18 +474,33 @@ body {
 		}
 
 		&_small {
-			margin: 5px auto;
+			margin: 4px auto;
 			width: 51px;
 			height: 51px;
 			border-radius: 50%;
 			border: #000 solid 1px;
 			text-align: center;
-			padding-top: 17px;
 			display: block;
+			color: #204d15;
+			font-family: "MuseoSans 100";
+			font-size: 13px;
+			font-weight: 400;
+			line-height: 55px;
+			text-transform: uppercase;
+			letter-spacing: 1.56px;
 		}
 	}
 
-	&__text {}
+	&__text {
+		margin-left: 25px;
+		color: #22241b;
+		font-family: 'MuseoSans 900';
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 55px;
+		text-transform: uppercase;
+		letter-spacing: 1.8px;
+	}
 }
 
 .title {}
