@@ -513,47 +513,47 @@ body {
 	}
 
 	&__item {
-
-		&_1 {
-			width: 300px;
-			height: 300px;
-			background: url("../img/1.jpg");
-		}
-
-		&_2 {
-			width: 300px;
-			height: 300px;
-			background: url("../img/2.jpg");
-		}
-
-		&_3 {
-			width: 300px;
-			height: 300px;
-			background: url("../img/3.jpg");
-		}
+		width: 300px;
 	}
 
-	&__text {
-		padding-top: 127px;
-		text-align: center;
+	&__wrap {
+		position: relative;
+	}
+
+	&__overlay {
+		opacity: 0;
+		background: rgba($color: #000000, $alpha: 0.64);
 		color: #fff;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		@extend %flexbox;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		transition: all 0.5s ease;
 		font-family: "MuseoSans 900";
 		font-size: 15px;
 		font-weight: 400;
 		text-transform: uppercase;
 		letter-spacing: 0.3px;
+
+		&:hover {
+			opacity: 1;
+		}
 	}
 
 	&__link {
-		margin: 0 auto;
-		color: #ffffff;
 		font-family: "MuseoSans 300";
 		font-size: 13px;
 		font-weight: 400;
 		line-height: 2.55;
 		letter-spacing: 0.26px;
-		text-align: center;
-		display: block;
+		// text-align: center;
+		// display: block;
+		text-transform: none;
 
 		&:after {
 			content: "";
@@ -562,8 +562,8 @@ body {
 			width: 61px;
 			height: 1px;
 			background-color: #fff;
-			margin-left: 120px;
-			margin-top: -5px;
+			// margin-left: 120px;
+			// margin-top: -5px;
 		}
 	}
 }
