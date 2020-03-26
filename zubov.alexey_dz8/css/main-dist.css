@@ -130,7 +130,7 @@ body {
 }
 
 .header {
-	background: #ccc url("../img/background.jpg") no-repeat center;
+	background: #ccc url("../img/background.jpg") no-repeat center top/cover;
 	padding: 40px 0 82px 0;
 	color: #fff;
 	text-transform: uppercase;
@@ -272,6 +272,7 @@ body {
 	margin-bottom: 40px;
 }
 .merit__item {
+	color: #c6d6bb;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -279,10 +280,10 @@ body {
 .merit__cubic {
 	width: 73px;
 	height: 73px;
-	border: 1px solid #000;
+	border: 1px solid #c6d6bb;
 	transform: rotate(45deg);
 }
-.merit__cubic_small {
+.merit__cubic-small {
 	margin: 8px auto;
 	width: 57px;
 	height: 57px;
@@ -300,6 +301,7 @@ body {
 	transform: rotate(-45deg);
 }
 .merit__text {
+	color: #949591;
 	width: 105px;
 	margin-top: 36px;
 	color: #22241b;
@@ -326,7 +328,7 @@ body {
 	flex-direction: column;
 }
 .contact__link {
-	color: #22241b;
+	color: #949591;
 	font-family: "MuseoSans 300";
 	font-size: 14px;
 	font-weight: 400;
@@ -341,7 +343,7 @@ body {
 	position: absolute;
 	width: 166px;
 	height: 1px;
-	background-color: #22241b;
+	background-color: #949591;
 }
 .contact__link:nth-child(2):after {
 	content: "";
@@ -349,7 +351,7 @@ body {
 	position: absolute;
 	width: 107px;
 	height: 1px;
-	background-color: #22241b;
+	background-color: #949591;
 }
 .contact__link:nth-child(3):after {
 	content: "";
@@ -357,12 +359,13 @@ body {
 	position: absolute;
 	width: 132px;
 	height: 1px;
-	background-color: #22241b;
+	background-color: #949591;
 }
 .contact__write {
 	align-items: center;
 }
 .contact__circle {
+	margin-right: 5px;
 	width: 64px;
 	height: 64px;
 	border-radius: 50%;
@@ -377,7 +380,7 @@ body {
 	width: 22px;
 }
 .contact__text {
-	color: #22241b;
+	color: #949591;
 	font-family: "MuseoSans 300";
 	font-size: 14px;
 	font-weight: 400;
@@ -530,6 +533,14 @@ body {
 	.about__merit-contact {
 		margin: 0 auto;
 	}
+
+	.subtitle {
+		text-align: center;
+	}
+
+	.title {
+		text-align: center;
+	}
 }
 @media screen and (max-width: 768px) {
 	.container .container__top {
@@ -541,6 +552,10 @@ body {
 		padding: 0 0 20px 0;
 	}
 
+	.header__nav {
+		margin-bottom: 15px;
+	}
+
 	.header__row {
 		flex-direction: column;
 	}
@@ -548,7 +563,15 @@ body {
 	.header__logo {
 		line-height: 1;
 		padding-top: 10px;
-		margin-bottom: 20px;
+		margin-bottom: 30px;
+	}
+
+	.header__title {
+		margin-top: 150px;
+	}
+
+	.header__subtitle {
+		margin-top: 40px;
 	}
 
 	.container {
@@ -562,6 +585,15 @@ body {
 
 	.skills__item-row {
 		flex-direction: column;
+	}
+
+	.works__row {
+		flex-wrap: wrap;
+	}
+
+	.works__item {
+		width: 48%;
+		margin-bottom: 10px;
 	}
 
 	.works__overlay {
@@ -579,10 +611,14 @@ body {
 	.subtitle {
 		text-align: center;
 	}
+
+	.contact__circle {
+		margin-right: 20px;
+	}
 }
 @media screen and (max-width: 576px) {
 	.container {
-		width: 320px;
+		width: 90%;
 	}
 
 	.works__row {
@@ -590,9 +626,15 @@ body {
 	}
 
 	.nav__list {
+		margin-top: 30px;
+		margin-left: 0;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.header__title {
+		margin-top: 80px;
 	}
 
 	.header__email {
@@ -613,6 +655,11 @@ body {
 		flex-direction: column;
 	}
 
+	.contact__circle {
+		margin-top: 30px;
+		margin-right: 0;
+	}
+
 	.contact__write {
 		display: flex;
 		flex-direction: column;
@@ -621,5 +668,9 @@ body {
 	.works__item {
 		width: 80%;
 		margin-bottom: 10px;
+	}
+
+	.about_title {
+		margin-top: -20px;
 	}
 }
