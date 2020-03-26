@@ -572,6 +572,7 @@ body {
 
 	.header__subtitle {
 		margin-top: 40px;
+		line-height: 1.2em;
 	}
 
 	.container {
