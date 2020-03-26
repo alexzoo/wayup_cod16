@@ -408,7 +408,7 @@ body {
 .skills__item:nth-child(1) {
 	margin-left: 0;
 }
-.skills__circle_big {
+.skills__circle-big {
 	width: 61px;
 	height: 61px;
 	border-radius: 50%;
@@ -416,7 +416,7 @@ body {
 	text-align: center;
 	display: block;
 }
-.skills__circle_small {
+.skills__circle-small {
 	margin: 4px auto;
 	width: 51px;
 	height: 51px;

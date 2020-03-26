@@ -461,7 +461,7 @@ body {
 	}
 
 	&__circle {
-		&_big {
+		&-big {
 			width: 61px;
 			height: 61px;
 			border-radius: 50%;
@@ -471,7 +471,7 @@ body {
 
 		}
 
-		&_small {
+		&-small {
 			margin: 4px auto;
 			width: 51px;
 			height: 51px;
@@ -676,7 +676,7 @@ body {
 		flex-wrap: wrap;
 	}
 
-	.works__it1.2em {
+	.works__item {
 		width: 48%;
 		margin-bottom: 10px;
 	}
