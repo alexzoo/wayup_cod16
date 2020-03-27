@@ -131,7 +131,7 @@ body {
 
 .header {
 	background: #ccc url("../img/background.jpg") no-repeat center top/cover;
-	padding: 40px 0 82px 0;
+	padding: 0 0 82px 0;
 	color: #fff;
 	text-transform: uppercase;
 }
@@ -382,6 +382,7 @@ body {
 .contact__text {
 	color: #949591;
 	font-family: "MuseoSans 300";
+	font-style: italic;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 55px;
@@ -412,7 +413,7 @@ body {
 	width: 61px;
 	height: 61px;
 	border-radius: 50%;
-	border: #000 solid 1px;
+	border: #22241b solid 1px;
 	text-align: center;
 	display: block;
 }
@@ -421,7 +422,7 @@ body {
 	width: 51px;
 	height: 51px;
 	border-radius: 50%;
-	border: #000 solid 1px;
+	border: #adb2ac solid 1px;
 	text-align: center;
 	display: block;
 	color: #204d15;
@@ -434,7 +435,7 @@ body {
 }
 .skills__text {
 	margin-left: 25px;
-	color: #22241b;
+	color: #3a3c34;
 	font-family: "MuseoSans 900";
 	font-size: 15px;
 	font-weight: 400;
@@ -455,8 +456,6 @@ body {
 }
 .works__item {
 	width: 300px;
-}
-.works__wrap {
 	position: relative;
 }
 .works__overlay {
@@ -498,13 +497,16 @@ body {
 	background-color: #fff;
 }
 
+.footer {
+	padding: 20px 0;
+}
 .footer__text {
 	margin-left: 5px;
 	color: #22241b;
 	font-family: "MuseoSans 300";
 	font-size: 11px;
 	font-weight: 400;
-	line-height: 5;
+	line-height: 1.2em;
 	text-transform: uppercase;
 	letter-spacing: 1.54px;
 }
@@ -541,6 +543,14 @@ body {
 	.title {
 		text-align: center;
 	}
+
+	.merit__row {
+		margin-left: 0;
+	}
+
+	.contact__text {
+		margin-left: 5px;
+	}
 }
 @media screen and (max-width: 768px) {
 	.container .container__top {
@@ -562,8 +572,6 @@ body {
 
 	.header__logo {
 		line-height: 1;
-		padding-top: 10px;
-		margin-bottom: 30px;
 	}
 
 	.header__title {
@@ -573,6 +581,7 @@ body {
 	.header__subtitle {
 		margin-top: 40px;
 		line-height: 1.2em;
+		margin-bottom: 160px;
 	}
 
 	.container {
@@ -597,10 +606,6 @@ body {
 		margin-bottom: 10px;
 	}
 
-	.works__overlay {
-		font-size: 10px;
-	}
-
 	.footer__text {
 		text-align: center;
 	}
@@ -611,10 +616,6 @@ body {
 
 	.subtitle {
 		text-align: center;
-	}
-
-	.contact__circle {
-		margin-right: 20px;
 	}
 }
 @media screen and (max-width: 576px) {
@@ -639,17 +640,16 @@ body {
 	}
 
 	.header__email {
-		margin: 0 auto;
+		display: none;
 	}
 
 	.nav__item {
-		margin-bottom: 10px;
+		margin-bottom: 20px;
 	}
 
 	.merit__row {
 		flex-direction: column;
 		width: 100%;
-		margin-left: 0;
 	}
 
 	.contact__row {
@@ -668,7 +668,8 @@ body {
 
 	.works__item {
 		width: 80%;
-		margin-bottom: 10px;
+		max-width: 320px;
+		margin-bottom: 40px;
 	}
 
 	.about_title {
