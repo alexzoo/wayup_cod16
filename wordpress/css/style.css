@@ -79,6 +79,7 @@ body {
 .container {
   width: 1140px;
   margin: 0 auto;
+  position: relative;
 }
 
 .header {
@@ -175,6 +176,7 @@ body {
 }
 
 .features {
+  background-color: #efefef;
   padding: 85px 75px;
 }
 
@@ -228,4 +230,42 @@ body {
   font-family: Roboto;
   font-size: 15px;
   font-weight: 300;
+}
+
+.optimization {
+  padding: 102px 107px;
+}
+
+.optimization__warp {
+  width: 779px;
+  margin-left: 369px;
+}
+
+.optimization__title {
+  color: #299cbd;
+  font-family: 'Roboto - Black';
+  font-size: 28px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.optimization__text {
+  color: #4a4a4a;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  font-family: 'Roboto Light';
+}
+
+.optimization__text span {
+  font-family: 'Roboto - Bold';
+  font-weight: 700;
+}
+
+.optimization__image {
+  position: absolute;
+  top: -54px;
+  left: -254px;
+  z-index: -1;
 }

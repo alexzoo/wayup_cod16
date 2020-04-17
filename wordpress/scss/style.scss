@@ -8,6 +8,7 @@ body {
 .container {
 	width: 1140px;
 	margin: 0 auto;
+	position: relative;
 }
 
 .header {
@@ -113,6 +114,7 @@ body {
 }
 
 .features {
+	background-color: #efefef;
 	padding: 85px 75px;
 	// .features__title
 	&__title {
@@ -161,5 +163,41 @@ body {
 		font-family: Roboto;
 		font-size: 15px;
 		font-weight: 300;
+	}
+}
+.optimization {
+	padding: 102px 107px;
+	// .optimization__title
+	&__warp {
+		width: 779px;
+		margin-left: 369px;
+	}
+	&__title {
+		color: #299cbd;
+		font-family: 'Roboto - Black';
+		font-size: 28px;
+		font-weight: 400;
+		text-transform: uppercase;
+		margin-bottom: 25px;
+	}
+	// .optimization__text
+	&__text {
+		color: #4a4a4a;
+		font-family: Roboto;
+		font-size: 17px;
+		font-weight: 300;
+		font-family: 'Roboto Light';
+
+		& span {
+			font-family: 'Roboto - Bold';
+			font-weight: 700;
+		}
+	}
+	// .optimization__image
+	&__image {
+		position: absolute;
+		top: -54px;
+		left: -254px;
+		z-index: -1;
 	}
 }
