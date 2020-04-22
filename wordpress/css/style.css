@@ -105,9 +105,8 @@ body {
 
 .header__title {
   color: #f9bf3b;
-  font-family: 'Roboto - Black';
   font-size: 41px;
-  font-weight: 600;
+  font-weight: 900;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 15px;
